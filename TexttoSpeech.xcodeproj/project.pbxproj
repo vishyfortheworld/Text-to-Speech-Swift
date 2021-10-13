@@ -14,6 +14,7 @@
 		A09D332E270DCE6C00CBCBC7 /* TexttoSpeech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A09D332C270DCE6C00CBCBC7 /* TexttoSpeech.xcdatamodeld */; };
 		A09D3330270DCE6E00CBCBC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09D332F270DCE6E00CBCBC7 /* Assets.xcassets */; };
 		A09D3333270DCE6E00CBCBC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09D3331270DCE6E00CBCBC7 /* LaunchScreen.storyboard */; };
+		A09D333C2716BD6500CBCBC7 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09D333B2716BD6500CBCBC7 /* SpeechService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A09D332F270DCE6E00CBCBC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A09D3332270DCE6E00CBCBC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A09D3334270DCE6E00CBCBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09D333B2716BD6500CBCBC7 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +64,21 @@
 				A09D3325270DCE6C00CBCBC7 /* SceneDelegate.swift */,
 				A09D3327270DCE6C00CBCBC7 /* ViewController.swift */,
 				A09D3329270DCE6C00CBCBC7 /* Main.storyboard */,
+				A09D333A2716BD4400CBCBC7 /* Speech Service */,
 				A09D332F270DCE6E00CBCBC7 /* Assets.xcassets */,
 				A09D3331270DCE6E00CBCBC7 /* LaunchScreen.storyboard */,
 				A09D3334270DCE6E00CBCBC7 /* Info.plist */,
 				A09D332C270DCE6C00CBCBC7 /* TexttoSpeech.xcdatamodeld */,
 			);
 			path = TexttoSpeech;
+			sourceTree = "<group>";
+		};
+		A09D333A2716BD4400CBCBC7 /* Speech Service */ = {
+			isa = PBXGroup;
+			children = (
+				A09D333B2716BD6500CBCBC7 /* SpeechService.swift */,
+			);
+			path = "Speech Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			files = (
 				A09D3328270DCE6C00CBCBC7 /* ViewController.swift in Sources */,
 				A09D332E270DCE6C00CBCBC7 /* TexttoSpeech.xcdatamodeld in Sources */,
+				A09D333C2716BD6500CBCBC7 /* SpeechService.swift in Sources */,
 				A09D3324270DCE6C00CBCBC7 /* AppDelegate.swift in Sources */,
 				A09D3326270DCE6C00CBCBC7 /* SceneDelegate.swift in Sources */,
 			);
